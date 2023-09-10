@@ -1,0 +1,130 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.titulo picture.logo img{
+    height: 40vh;
+    width: 100vh; 
+}
+
+.link-dos-personagens {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 50px red;
+}
+
+ul li {
+    font-family: 'another';
+    flex-wrap: wrap;
+    padding: 25px 10px;
+    margin: 0px 15px;
+    text-shadow: 1px 1px 10px rgb(255, 0, 0);
+}
+
+a {
+    color: rgb(117, 115, 110);
+}
+
+
+
+a.link-voltar-ao-top {
+    font-family: 'another';
+    text-shadow: 1px 1px 1px rgb(185, 181, 131);
+    color: rgb(65, 7, 26);
+    border-radius: 100%;
+}
+
+a:hover {
+    border-radius: 100%;
+    transition: 0.9s;
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+    color: rgb(39, 6, 6);
+    background-color: rgb(245, 0, 0);
+    text-shadow: 1px 1px 30px rgb(238, 3, 3);
+    padding: 1px 10px;
+}
+
+main {
+    background-color: black;
+    color: brown;
+    padding: 40px 10px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(33, 9, 38);
+    text-shadow: 1px 1px 3px rgb(251, 151, 151);
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(225, 219, 105);
+    text-shadow: 1px 1px 3px rgb(145, 137, 137);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(213, 156, 109);
+    text-shadow: 1px 1px 2px rgb(158, 130, 114);
+}
+
+.lista-de-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.lista-de-personagens .Cyber-Cyrax,
+.lista-de-personagens .Sektor,
+.lista-de-personagens .cyber-smoke,
+.lista-de-personagens .Ermac,
+.lista-de-personagens .Human-Smoke,
+.lista-de-personagens .Jade,
+.lista-de-personagens .Jax,
+.lista-de-personagens .Kabal,
+.lista-de-personagens .Kitana,
+.lista-de-personagens .Kung-Lao,
+.lista-de-personagens .Kano,
+.lista-de-personagens .Kurtis-Stryker,
+.lista-de-personagens .Liu-Kang,
+.lista-de-personagens .Millena,
+.lista-de-personagens .Nightwolf,
+.lista-de-personagens .Noob-Saibot,
+.lista-de-personagens .Rain,
+.lista-de-personagens .Reptile,
+.lista-de-personagens .Scorpion,
+.lista-de-personagens .Sindel,
+.lista-de-personagens .Sonya,
+.lista-de-personagens .Sub-Zero-Classico,
+.lista-de-personagens .Sub-Zero-sem-Mascara,
+.lista-de-personagens .Motaro,
+.lista-de-personagens .Shao-Kahn,
+.lista-de-personagens .Shang-Tsung {
+    width: 400px;
+    padding: 10px 5px;
+    margin: 100px 20px;
+}
+
+.imagem-do-rodape {
+    width: 100%;
+}
+
+.Dicas {
+    text-align: center;
+}

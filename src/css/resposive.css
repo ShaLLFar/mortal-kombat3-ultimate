@@ -1,0 +1,83 @@
+@media(max-width: 768px) {
+    html {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .logo img{
+        max-width: 55vh;
+        max-height: 25vh;
+    }
+
+    ul {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        max-height: 350px;
+    }
+
+    ul li {
+        text-align: center;
+        padding: 10px 2px;
+        font-size: 10px;
+    }
+
+    a:hover {
+        border-radius: 100%;
+        transition: 0.9s;
+        box-shadow: 0px 0px 5px rgb(255, 0, 0);
+        color: rgb(39, 6, 6);
+        background-color: rgb(245, 0, 0);
+        text-shadow: 1px 1px 30px rgb(238, 3, 3);
+        padding: 1px 5px;
+    }
+
+    main{
+        display: block;
+        max-width: 100vh;
+        padding: 20px 10px;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+
+.lista-de-personagens .Cyber-Cyrax,
+.lista-de-personagens .Sektor,
+.lista-de-personagens .cyber-smoke,
+.lista-de-personagens .Ermac,
+.lista-de-personagens .Human-Smoke,
+.lista-de-personagens .Jade,
+.lista-de-personagens .Jax,
+.lista-de-personagens .Kabal,
+.lista-de-personagens .Kitana,
+.lista-de-personagens .Kung-Lao,
+.lista-de-personagens .Kano,
+.lista-de-personagens .Kurtis-Stryker,
+.lista-de-personagens .Liu-Kang,
+.lista-de-personagens .Millena,
+.lista-de-personagens .Nightwolf,
+.lista-de-personagens .Noob-Saibot,
+.lista-de-personagens .Rain,
+.lista-de-personagens .Reptile,
+.lista-de-personagens .Scorpion,
+.lista-de-personagens .Sindel,
+.lista-de-personagens .Sonya,
+.lista-de-personagens .Sub-Zero-Classico,
+.lista-de-personagens .Sub-Zero-sem-Mascara,
+.lista-de-personagens .Motaro,
+.lista-de-personagens .Shao-Kahn,
+.lista-de-personagens .Shang-Tsung {
+    padding: 250px 0px;
+}
+    .Dicas{
+        display: block;
+        padding: 5px;
+    }
+
+    .Dicas img{
+        width: 100%;
+    } 
+
+
+}
