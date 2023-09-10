@@ -1,20 +1,20 @@
 @media(max-width: 468px) {
     html {
-        width: 300px;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0 auto;
     }
 
     .logo img{
         display: block;
-        max-width: 100%;
+        max-width: 70%;
         max-height: 25vh;
     }
 
     ul {
         display: flex;
         padding: 0;
-        width: 100%;
+        width: 90%;
         max-height: 350px;
     }
 
