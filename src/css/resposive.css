@@ -1,12 +1,13 @@
 @media(max-width: 468px) {
     html {
-        width: 100%;
+        width: 300px;
         margin: 0 auto;
         padding: 0 auto;
     }
 
     .logo img{
-        max-width: 50vh;
+        display: block;
+        max-width: 100%;
         max-height: 25vh;
     }
 
